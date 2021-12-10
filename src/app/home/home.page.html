@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>
+      Game Craps
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+	<ion-card class="mt-4">
+		<ion-card-content class="text-center">
+			<h2>Welcome To The Game</h2>
+			<p class="mt-3">Press start button to start the game and win, lose or get a point for chance !!</p>
+		</ion-card-content>
+	</ion-card>
+
+	<div class="mt-5 text-center">
+		<div (click)="firstAttempt()" class="btn btn-primary btn-sm">
+			START GAME
+		</div>
+	</div>
+</ion-content>
