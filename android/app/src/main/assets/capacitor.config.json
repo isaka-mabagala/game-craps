@@ -1,0 +1,6 @@
+{
+	"appId": "com.isaxstar.gamecraps",
+	"appName": "Game Craps",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
